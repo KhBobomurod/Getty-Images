@@ -106,4 +106,27 @@ header p {
   .gallery {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
+  header h2 {
+    font-size: 2rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  .search-form {
+    padding: 1rem;
+  }
+  .search-form input {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .gallery-info {
+    font-size: 0.8rem;
+  }
+  .gallery-img img {
+    border-radius: 10px;
+  }
+  .more {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
 }
