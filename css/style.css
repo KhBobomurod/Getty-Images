@@ -17,6 +17,8 @@ header {
   background-image: url("../images/bg.jpeg");
   color: #fff;
   min-height: 30vh;
+  width: 100%;
+  background-size: cover;
 }
 
 header h2 {
@@ -99,4 +101,9 @@ header p {
   font-size: 1.2rem;
   cursor: pointer;
   border: none;
+}
+@media screen and (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
 }
